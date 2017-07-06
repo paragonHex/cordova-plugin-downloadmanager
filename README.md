@@ -8,14 +8,14 @@ A Cordova plugin to download file in system's default download manager
  ## Installation
 
  ```
- cordova plugin add https://github.com/vasani-arpit/cordova-plugin-downloadmanager
+ cordova plugin add https://github.com/paragonHex/cordova-plugin-downloadmanager
  ```
 
- ## How to Use 
+ ## How to Use
 
  ```
  //once device is ready
-var fail = function (message) {    
+var fail = function (message) {
     alert(message)
 }
 var success = function (data) {
@@ -28,10 +28,6 @@ cordova.plugins.DownloadManager.download("Your URL to download", success, fail);
 
 ![screenshot](./screenshot/downloadplugin.gif)
 
-## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+## Based on
+https://github.com/vasani-arpit/cordova-plugin-downloadmanager
